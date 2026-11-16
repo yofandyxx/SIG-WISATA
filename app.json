@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "SIG Wisata Harau",
+    "slug": "sig-wisata-harau",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {"package":"com.sigwisata.harau", "permissions":["ACCESS_COARSE_LOCATION","ACCESS_FINE_LOCATION"]},
+    "plugins": ["expo-sqlite", ["expo-location", {"locationWhenInUsePermission":"SIG-WISATA menggunakan lokasi perangkat untuk menampilkan posisi Anda pada peta."}]],
+    "experiments": {"typedRoutes": false}
+  }
+}
